@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Map } from '../../src'
+import { Map } from '../../src/old'
 import { last } from './utils'
 
 test('<Map />', () => {

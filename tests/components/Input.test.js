@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Input } from '../../src'
+import { Input } from '../../src/old'
 
 test('<Input />', () => {
   const renderFn = jest.fn().mockReturnValue(null)

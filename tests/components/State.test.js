@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { State } from '../../src'
+import { State } from '../../src/old'
 import { last } from './utils'
 
 test('<State />', () => {

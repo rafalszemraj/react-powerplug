@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Set } from '../../src'
+import { Set } from '../../src/old'
 import { last } from './utils'
 
 test('<Set />', () => {

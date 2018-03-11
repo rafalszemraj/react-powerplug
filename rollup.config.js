@@ -11,22 +11,20 @@ const config = {
     format: 'umd',
     name: 'ReactPowerPlug',
     globals: {
-      'react': 'React',
-    }
+      react: 'React',
+    },
   },
-  external: [
-    'react',
-  ],
+  external: ['react'],
   plugins: [
     nodeResolve(),
     babel({
       runtimeHelpers: true,
-      exclude: '**/node_modules/**'
+      exclude: '**/node_modules/**',
     }),
     replace({
-      'process.env.NODE_ENV': JSON.stringify(env)
-    })
-  ]
+      'process.env.NODE_ENV': JSON.stringify(env),
+    }),
+  ],
 }
 
 if (env === 'production') {
@@ -36,8 +34,8 @@ if (env === 'production') {
         pure_getters: true,
         unsafe: true,
         unsafe_comps: true,
-        warnings: false
-      }
+        warnings: false,
+      },
     })
   )
 }

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Counter } from '../../src'
+import { Counter } from '../../src/old'
 import { last } from './utils'
 
 test('<Counter />', () => {

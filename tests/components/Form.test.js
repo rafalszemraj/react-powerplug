@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Form } from '../../src'
+import { Form } from '../../src/old'
 
 test('<Form />', () => {
   const renderFn = jest.fn().mockReturnValue(null)

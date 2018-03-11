@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Toggle } from '../../src'
+import { Toggle } from '../../src/old'
 import { last } from './utils'
 
 test('<Toggle />', () => {

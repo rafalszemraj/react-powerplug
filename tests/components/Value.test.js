@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import { Value } from '../../src'
+import { Value } from '../../src/old'
 import { last } from './utils'
 
 test('<Value />', () => {
